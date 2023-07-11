@@ -1,11 +1,11 @@
-package com.bhubanananda.logic;
+package com.bhubanananda.logic.onetofive;
 
 /**
- * The Class Pattern2.
+ * The Class Pattern1.
  *
  * @author Bhubanananda
  */
-public class Pattern2 {
+public class Pattern1 {
 
 	/**
 	 * The main method.
@@ -14,12 +14,11 @@ public class Pattern2 {
 	 */
 	public static void main(String[] args) {
 
-		for (int i = 1; i <= 5; i++) {
-			for (int j = 1; j <= 5; j++) {
-				System.out.print(j);
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 5; j++) {
+				System.out.print("*");
 			}
 			System.out.println();
 		}
 	}
-
 }
